@@ -1,0 +1,6 @@
+Falls Sie keine Verbindung vom Kameramodul zu Ihrem USB-Modul auf Ihrem PC bekommen,
+dann liegt es meistens daran, dass Ihre USB-Schnittstelle nicht ausreichend Strom
+zur Verfügung stellt. Sie können dann Abhilfe schaffen, wenn Sie das Kameramodul nicht
+direkt mit dem USB-C-Kabel an Ihre USB-Schnittstelle anschließen sondern über einen
+USB-Hub mit eigener Schnittstelle. Dann ist sichergestellt, dass das Kameramodul ausreichend
+mit Strom versorgt wird.
