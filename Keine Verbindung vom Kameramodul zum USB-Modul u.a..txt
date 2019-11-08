@@ -4,3 +4,6 @@ zur Verfügung stellt. Sie können dann Abhilfe schaffen, wenn Sie das Kameramod
 direkt mit dem USB-C-Kabel an Ihre USB-Schnittstelle anschließen sondern über einen
 USB-Hub mit eigener Schnittstelle. Dann ist sichergestellt, dass das Kameramodul ausreichend
 mit Strom versorgt wird.
+Aus ähnlichem Grund kann es dazu kommen, dass Sie keine WLAN-Verbindung hinbekommen.
+Achten Sie deshalb immer darauf, nur voll geladene Akkus zu verwenden, damit das Modul
+ausreichend Energie zur Verfügung hat.
