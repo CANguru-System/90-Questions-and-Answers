@@ -1,6 +1,6 @@
-Die Drahtlosverbindungen im CANguru-System nutzen nicht das heimische WLAN-Netz.
+﻿Die Drahtlosverbindungen im CANguru-System nutzen nicht das heimische WLAN-Netz.
 Allerdings gibt es dazu zwei Ausnahmen. Einmal ist das der Kamerawagen, der sein
-Bild üvom Kamerawagen über das WLAN auf den PC bringt. Die zweite Ausnahme bildet
+Bild vom Kamerawagen über das WLAN auf den PC bringt. Die zweite Ausnahme bildet
 die CANguru-Bridge. Dies betrifft nicht die CANguru-Bridge, wenn sie mit dem PC "spricht".
 Eigentlich benötigt sie auch nicht das WLAN, aber sie braucht eine IP-Adresse. Und die
 bekommt sie von einem Router im WLAN. Denn die beherrschen das Dynamic Host Configuration
@@ -8,5 +8,11 @@ Protocol (DHCP), das in Ihrem WLAN die IP-Adressen vergibt.
 Das hat zur Folge, dass Sie die CANguru-Bridge nicht einfach in die ETHERNET-Buchse Ihre PC
 stecken können, sondern in eine freie Buchse Ihres Routers (Beispiel Fritzbox) oder
 Sie verwenden einen Repeater. Die haben meist auch einen Netzwerkanschluss. Mit dem Repeater
-kommen Sie auch an den Routr, der dann beim ersten Kontakt der CANguru-Bridge eine IP-Adresse
-verpasst.
+kommen Sie auch an den Router, der dann beim ersten Kontakt der CANguru-Bridge eine IP-Adresse
+verpasst. Diese IP-Adresse wird im Display der CANguru-Bridge und im CANguru-Server oben
+links angezeigt.
+Wenn Sie dennoch keine Verbindung bekommen, liegt das meist daran, dass diese Verbindung Ihrer
+Firewall bekannt sein muss. Dazu meldet sich die Firewall in der Regel beim ersten Verbindungsversuch.
+Diesem Eintrag müssen Sie dann zustimmen. Achtung: Manchmal liegt das zugehörige Eingabefensetr der
+Firewall hinter anderen Fenstern versteckt. Also, wenn es beim ersten Mal nicht klappt, dann das
+Fenster suchen.
